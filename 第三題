@@ -1,0 +1,20 @@
+#include <iostream>  
+#include <cmath>  
+  
+using namespace std;  
+  
+int main()  
+{  
+    int x, y, radius = 100;  
+      
+    cin >> x >> y;  
+  
+    if (sqrt(x*x + y*y) <= radius) {  
+        cout  << "inside" << endl;  
+    }  
+    else {  
+        cout  << "outside" << endl;  
+    }  
+  
+    return 0;  
+}  
