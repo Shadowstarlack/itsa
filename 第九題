@@ -1,0 +1,19 @@
+#include <iostream>  
+using namespace std;  
+  
+int main() {  
+    int N, sum = 0;  
+  
+      
+    cin >> N;  
+  
+    for (int i = 1; i <= N; i++) {  
+        if (i % 3 == 0) {  
+            sum += i;  
+        }  
+    }  
+  
+    cout << "1 到 " << N << " 之間可被 3 整除的數值之總和為 " << sum << endl;  
+  
+    return 0;  
+}
